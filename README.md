@@ -7,5 +7,6 @@ L'Utilisateur se dirigera dans la page accueil.html, puis cliquera sur "Voir l'e
 Il cliquera alors sur "Voir le plan du bâtiment", où le nom de la zone géographique s'affichera.
 En cliquant sur la zone géographique, il obtiendra le nom bâtiment et en cliquant sur le nom du bâtiment, il obtiendra la liste des étages et des pièces.
 En cliquant sur l'une de ces pièces, un pop up s'affichera en lui indiquant la valeur de la pièce : Occupée, Non occupée ou une indisponibilité de connaitre l'état de la pièce.
+Le fichier ./config/data.json me permettait de visualiser les children de chaque données.
 
 Dans ce projet j'ai privilégié la fonctionnalité de l'exercice qu'au design du front end et de la responsivité, j'ai compensé ce manque en faisant l'exercice 2. (Je ne savais pas si il était à faire mais j'ai voulu le faire en regardant le pdf).
