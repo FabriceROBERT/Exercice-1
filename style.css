@@ -1,0 +1,191 @@
+body {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: sans-serif;
+}
+
+.building {
+  top: 0;
+  object-fit: cover;
+  height: 90vh;
+  width: 130vh;
+  right: 0;
+  position: absolute;
+  z-index: -10;
+}
+
+#logo {
+  position: absolute;
+  object-fit: contain;
+  top: 15%;
+  left: 60%;
+  transform: translateX(-50%);
+  height: 200px;
+  padding-left: 150px;
+  padding-right: 150px;
+  background-color: black;
+  width: 150px;
+  z-index: 30;
+}
+
+.accueil {
+  background-color: orange;
+  margin-top: 10%;
+  color: rgb(33 33 33);
+  margin-left: 10%;
+  padding: 100px 500px 100px 30px;
+  width: 20em;
+  opacity: 0.9;
+  z-index: 10;
+}
+
+.accueil h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.accueil button {
+  padding: 20px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  font-style: italic;
+}
+
+.accueil button:hover {
+  transition: ease-in 0.3s;
+  color: wheat;
+}
+
+.name {
+  background-color: violet;
+}
+
+nav ul {
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  background-color: black;
+  align-items: center;
+  padding: 30px 40px 30px 40px;
+  align-content: center;
+  font-size: 15px;
+  gap: 70px;
+  margin-bottom: 0;
+}
+
+nav ul li:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+nav ul li {
+  font-weight: 600;
+  letter-spacing: -1px;
+  transition: 0.1ms;
+}
+
+.spinalcom-logo {
+  height: 40px;
+  width: auto;
+}
+
+header {
+  margin-top: 0;
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+
+  background-color: black;
+  --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.299),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color),
+    0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.planImage img {
+  position: absolute;
+  object-fit: cover;
+  left: 350px;
+  height: 650px;
+  width: auto;
+}
+
+.buttonBatiment {
+  background-color: orange;
+  margin-top: 200px;
+  margin-left: 60%;
+  z-index: 45;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 30px;
+  font-style: italic;
+  cursor: pointer;
+
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+#hidden {
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 5rem;
+  color: black;
+  background-color: orange;
+  border: solid 1px;
+  border-radius: 10px;
+  width: 350px;
+  font-weight: 700;
+  padding: 30px;
+  cursor: pointer;
+  visibility: collapse;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  width: auto;
+  gap: 20px;
+  align-items: center;
+  align-content: center;
+}
+
+.buttonChildrenClass {
+  padding: 30px;
+  font-size: 15px;
+  color: black;
+  background-color: orange;
+  cursor: pointer;
+  border: solid 2px;
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+.liChild {
+  list-style: none;
+  color: white;
+  background-color: black;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.liGrandChild {
+  font-size: 20px;
+}
